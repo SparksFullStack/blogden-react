@@ -8,11 +8,11 @@ import {
 export default class Header extends Component {
   render() {
     return (
-      <header className="main-header py-2 bg-success text-white">
+      <header className="main-header py-2 bg-warning text-white">
         <Container>
             <Row>
                 <Col md="6" className="pl">
-                    <h1 className=""> Details</h1>
+                    <h1 className=""> Settings</h1>
                 </Col>
             </Row>
         </Container>
