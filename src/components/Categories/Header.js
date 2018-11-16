@@ -8,7 +8,7 @@ import {
 export default class Header extends Component {
   render() {
     return (
-      <header className="main-header py-2 bg-primary text-white">
+      <header className="main-header py-2 bg-success text-white">
         <Container>
             <Row>
                 <Col md="6" className="pl">
