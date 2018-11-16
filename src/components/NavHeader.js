@@ -33,7 +33,7 @@ export default class NavHeader extends Component {
             <NavbarBrand href="/" className="mr-auto">Blogden</NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
             <Collapse isOpen={!collapsed} navbar>
-              <Nav className="mr-auto" navbar>
+              <Nav className="ml-2" navbar>
                 <NavItem className={currentPage === "dashboard" ? "px-2 active" : "px-2"}>
                     <NavLink>
                         Dashboard
@@ -59,19 +59,24 @@ export default class NavHeader extends Component {
               <Nav className="ml-auto" navbar>
                 <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle nav caret>
-                        Options
+                    <i className="fas fa-user"></i> Welcome!
                     </DropdownToggle>
                     <DropdownMenu right>
-                        <DropdownItem dark>
-                            <a href="#">
-                                <i className="fas fa-user"></i> Welcome!
+                        <DropdownItem>
+                            <a href="/profile">
+                                <i className="fas fa-user-circle"></i> Profile
                             </a>
                         </DropdownItem>
                         <DropdownItem>
-
+                            <a href="/settings">
+                                <i className="fas fa-cog"></i> Settings
+                            </a>
                         </DropdownItem>
                     </DropdownMenu>
                 </UncontrolledDropdown>
+                <NavLink href="/login">
+                    <i className="fas fa-user-times"></i> Logout
+                </NavLink>
               </Nav>
             </Collapse>
           </Navbar>
