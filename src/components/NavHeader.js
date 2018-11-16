@@ -82,7 +82,6 @@ export default class NavHeader extends Component {
                 </Collapse>
             </Container>
           </Navbar>
-   
         )
     }
 }
