@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
 import './App.css';
 
 import NavHeader from './components/NavHeader';
@@ -9,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <NavHeader />
-        <Home />
+        <Route path="/" component={Home} />
       </div>
     );
   }
