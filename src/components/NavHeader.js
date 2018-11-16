@@ -12,6 +12,7 @@ import {
     DropdownToggle,
     DropdownMenu,
     DropdownItem,
+    Container
  } from 'reactstrap';
 
 export default class NavHeader extends Component {
@@ -30,6 +31,7 @@ export default class NavHeader extends Component {
 
         return (
             <Navbar className="p-0" color="dark" dark expand="sm">
+            <Container>
             <NavbarBrand href="/" className="mr-auto">Blogden</NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
             <Collapse isOpen={!collapsed} navbar>
@@ -79,6 +81,7 @@ export default class NavHeader extends Component {
                 </NavLink>
               </Nav>
             </Collapse>
+            </Container>
           </Navbar>
    
         )

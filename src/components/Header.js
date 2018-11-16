@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./Header.css";
 import {
     Container,
     Row,
@@ -12,7 +13,7 @@ export default class Header extends Component {
         <Container>
             <Row>
                 <Col md="6" className="pl">
-                    <h1><i className="fas fa-cog"></i> Dashboard</h1>
+                    <h1 className=""><i className="fas fa-cog"></i> Dashboard</h1>
                 </Col>
             </Row>
         </Container>
