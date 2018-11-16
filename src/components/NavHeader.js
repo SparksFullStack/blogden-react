@@ -36,22 +36,22 @@ export default class NavHeader extends Component {
                 <Collapse isOpen={!collapsed} navbar>
                 <Nav className="ml-2" navbar>
                     <NavItem className={currentPage === "dashboard" ? "px-2 active" : "px-2"}>
-                        <NavLink>
+                        <NavLink href="/">
                             Dashboard
                         </NavLink>
                     </NavItem>
                     <NavItem className={currentPage === "posts" ? "px-2 active" : "px-2"}>
-                        <NavLink>
+                        <NavLink href="/posts">
                             Posts
                         </NavLink>
                     </NavItem>
                     <NavItem className={currentPage === "categories" ? "px-2 active" : "px-2"}>
-                        <NavLink>
+                        <NavLink href="/categories">
                             Categories
                         </NavLink>
                     </NavItem>
                     <NavItem className={currentPage === "users" ? "px-2 active" : "px-2"}>
-                        <NavLink>
+                        <NavLink href="/users">
                             Users
                         </NavLink>
                     </NavItem>

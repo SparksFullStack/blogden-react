@@ -107,7 +107,7 @@ export default class Posts extends Component {
                         <CardBody>
                             <h3>Categories</h3>
                             <h4 className="display-4">
-                                <i className="fas fa-folder"></i> 4
+                                <i className="fas fa-folder"></i> 3
                             </h4>
                             <Button href="/categories" size="sm" outline color="light">View</Button>
                         </CardBody>
@@ -117,7 +117,7 @@ export default class Posts extends Component {
                         <CardBody>
                             <h3>Users</h3>
                             <h4 className="display-4">
-                                <i className="fas fa-users"></i> 4
+                                <i className="fas fa-users"></i> 3
                             </h4>
                             <Button href="/posts" size="sm" outline color="light">View</Button>
                         </CardBody>

@@ -8,6 +8,7 @@ import Home from './components/Homepage/Home';
 import Posts from './components/Posts/Posts';
 import Categories from './components/Categories/Categories';
 import Users from './components/Users/Users';
+import Details from './components/Details/Details';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         <Route path="/posts" component={Posts} />
         <Route path="/categories" component={Categories} />
         <Route path="/users" component={Users} />
+        <Route path='/details' component={Details} />
         <Footer />
       </div>
     );
