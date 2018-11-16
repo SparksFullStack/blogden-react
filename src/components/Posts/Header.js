@@ -12,7 +12,7 @@ export default class Header extends Component {
         <Container>
             <Row>
                 <Col md="6" className="pl">
-                    <h1 className=""><i className="fas fa-pencil-alt"></i> Dashboard</h1>
+                    <h1 className=""><i className="fas fa-pencil-alt"></i> Posts</h1>
                 </Col>
             </Row>
         </Container>
