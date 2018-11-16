@@ -48,23 +48,23 @@ export default class Actions extends Component {
                 <section id="actions" className="py-4 mb-4 bg-light">
                     <Container>
                         <Row>
-                            <Col md="3">
+                            <Col className="ml-auto mr-auto" md="3">
                                 <Button onClick={this.togglePostModal} href="#" color="primary" block>
                                     <i className="fas fa-plus"></i> Add Post
                                 </Button>
                             </Col>
                             
-                            <Col md="3">
+                            {/* <Col md="3">
                                 <Button onClick={this.toggleModal} href="#" color="success" block>
                                     <i className="fas fa-plus"></i> Add Category
                                 </Button>
-                            </Col>
+                            </Col> */}
 
-                            <Col md="3">
+                            {/* <Col md="3">
                                 <Button onClick={this.toggleModal} href="#" color="warning" block>
                                     <i className="fas fa-plus"></i> Add User
                                 </Button>
-                            </Col>
+                            </Col> */}
                         </Row>
                     </Container>
                 </section>
