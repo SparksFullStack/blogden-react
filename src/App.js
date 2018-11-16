@@ -5,6 +5,7 @@ import NavHeader from './components/NavHeader';
 import Header from './components/Header';
 import Actions from './components/Actions';
 import Posts from './components/Posts';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Header />
         <Actions />
         <Posts />
+        <Footer />
       </div>
     );
   }
