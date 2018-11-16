@@ -48,21 +48,21 @@ export default class Actions extends Component {
                 <section id="actions" className="py-4 mb-4 bg-light">
                     <Container>
                         <Row>
-                            <Col md="3">
+                            <Col className="ml-auto mr-auto" md="3">
                                 <Button href="/" color="primary" block>
                                     <i className="fas fa-arrow-left"></i> Back to Dashboard
                                 </Button>
                             </Col>
                             
-                            <Col md="3">
+                            <Col className="ml-auto mr-auto" md="3">
                                 <Button href="/" color="success" block>
                                     <i className="fas fa-check"></i> Save Changes
                                 </Button>
                             </Col>
 
-                            <Col md="3">
+                            <Col className="ml-auto mr-auto" md="3">
                                 <Button href="/" color="danger" block>
-                                    <i className="fas fa-trash"></i> Delete User
+                                    <i className="fas fa-trash"></i> Delete Post
                                 </Button>
                             </Col>
                         </Row>
