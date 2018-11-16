@@ -9,6 +9,7 @@ import Posts from './components/Posts/Posts';
 import Categories from './components/Categories/Categories';
 import Users from './components/Users/Users';
 import Details from './components/Details/Details';
+import Settings from './components/Settings/Settings';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
         <Route path="/categories" component={Categories} />
         <Route path="/users" component={Users} />
         <Route path='/details' component={Details} />
+        <Route path="/settings" component={Settings} />
         <Footer />
       </div>
     );
